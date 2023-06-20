@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+}
+
+.train-table-container {
+  max-height: 500px;
+  overflow: auto;
+  width: 60%;
+}
+
+.train-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.train-caption {
+  margin-bottom: 44px;
+}
+
+caption {
+  padding-bottom: 20px;
+  text-align: start;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.train-table th,
+.train-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.train-table th {
+  background-color: #f2f2f2;
+}
+
+.speed-limits-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.speed-limits-table th,
+.speed-limits-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.speed-limits-table th {
+  background-color: #f2f2f2;
+}
+
+.speed-limits-table input {
+  width: 80%;
+  padding: 5px;
+}
+
+.limit-table-container {
+  display: grid;
+  align-items: start;
+  max-height: 500px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  color: #fff;
+  background: #333;
+  align-self: end;
+}

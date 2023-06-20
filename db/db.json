@@ -1,0 +1,22 @@
+{
+  "trains": [
+    {
+      "id": 1,
+      "name": "Поезд 1",
+      "description": "Описание поезда",
+      "speedLimit": 100
+    },
+    {
+      "id": 2,
+      "name": "Поезд 2",
+      "description": "Описание поезда",
+      "speedLimit": 90
+    },
+    {
+      "id": 3,
+      "name": "Поезд 3",
+      "description": "Описание поезда",
+      "speedLimit": 80
+    }
+  ]
+}
